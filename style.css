@@ -1,0 +1,173 @@
+* {
+    font-family:  "Montserrat";
+    box-sizing: border-box;
+    scroll-behavior:calc(20px);
+}
+
+body {
+    margin: 0;
+    padding: 32px 64px 0 64px;
+    color: white;
+    background-color: black;
+}
+
+header {
+    display: block;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+a {
+    float: right;
+    margin: -32px 0 32px 0;
+    padding-right: 64px;
+}
+
+a:link {
+    color: cyan;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: cyan;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color:crimson;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: crimson;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+/* ID induk */
+#greet { 
+    width: 800px;
+}
+
+.greet {
+    margin: 64px 128px;
+    font-weight: 500;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.greet-p {
+    margin: 64px 128px;
+    font-weight: 500;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+#greet-p2 {
+    margin-top: -56px;
+    margin-left: 128px;
+    color:cyan;
+}
+
+.mini-box {
+    display: block;
+    margin: 64px 128px;
+    font-size: 16px;
+    width: 128px;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    padding: 0;
+}
+
+/* img {
+    margin-top: -128px;
+    float: right;
+} */
+
+/* ID induk */
+#box-section{
+    margin: 128px 128px;
+    font-weight: 500;
+    font-size: 24px;
+    font-weight: 700;
+    display: block;
+    overflow: hidden;
+}
+
+.line {
+    background-color:cyan;
+    width: 176px;
+    height: 8px;
+    margin-top: -16px;
+}
+
+#line2 {
+    width: 240px;
+}
+
+#line3 {
+    width: 116px;
+}
+
+#line4 {
+    width: 216px;
+}
+
+.box {
+    height: 260px;
+    width: 310px;
+    float: left;
+    border-style: solid;
+    border-color:grey;
+    margin: 32px 16px 0 0;
+    text-align: center;
+    padding-top: 108px;
+    font-size: 16px;
+    font-weight: 400;
+    color: grey;
+    grid-template-rows: auto;
+}
+
+/* ID Induk */
+#img-section{
+    margin: 128px 128px;
+    font-weight: 500;
+    font-size: 24px;
+    font-weight: 700;
+    display: block;
+    overflow: hidden;
+}
+
+.img-certificate {
+    margin-top: 32px;
+}
+
+/* ID Induk */
+#about-section {
+    margin: 128px 128px;
+    font-weight: 500;
+    font-size: 24px;
+    font-weight: 700;
+    display: block;
+    overflow: hidden;
+}
+
+.about-p {
+    color: rgb(149, 149, 149);
+    font-size: 16px;
+    margin-top: 32px;
+    padding-bottom:0px ;
+}
+
+#skill-section{
+    margin: 128px 128px;
+    font-weight: 500;
+    font-size: 24px;
+    font-weight: 700;
+    display: block;
+    overflow: hidden;
+}
